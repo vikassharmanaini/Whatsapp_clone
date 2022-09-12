@@ -1,0 +1,58 @@
+{
+    "items": [
+        {
+            "_id":"123456789",
+            "name":"Alok Dubey GPL IT S1",
+            "image":"https://images.generated.photos/itJz10CMX7FFcVnqprjXfEkUH8Jv8aKLpDQwu72ce6o/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODM4NTE1LmpwZw.jpg",
+            "l_chat":"Best of luck bro"
+        },
+        {
+            "_id":"12345678",
+            "name":"Anup verma GPL IT S1",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            "l_chat":"Zinda Ho"
+        },
+        {
+            "_id":"1234567",
+            "name":"Vipin Passwan GPL IT S1",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
+            "l_chat":"Mari jao sale"
+        },
+        {
+            "_id":"123456",
+            "name":"Aman Verma GPL IT S1",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
+            "l_chat":"Thick dekhte hai "
+        },
+        {
+            "_id":"12345",
+            "name":"Sushil Tiwari",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
+            "l_chat":"Result Kab Ayega"
+        },
+        {
+            "_id":"1234",
+            "name":"Nitin Prajapati",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
+            "l_chat":"😂😂😂"
+        },
+        {
+            "_id":"123",
+            "name":"Riya Panday",
+            "image":"https://xsgames.co/randomusers/assets/avatars/female/75.jpg",
+            "l_chat":"Assignment Bhejo"
+        },
+        {
+            "_id":"12",
+            "name":"Puja verma",
+            "image":"https://xsgames.co/randomusers/assets/avatars/female/7.jpg",
+            "l_chat":"Miss u"
+        },
+        {
+            "_id":"1",
+            "name":"Sandesh Upadhyaya",
+            "image":"https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
+            "l_chat":"💩💩"
+        }
+    ]
+}
