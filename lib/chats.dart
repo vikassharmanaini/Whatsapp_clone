@@ -74,24 +74,37 @@ class _chatelisttileState extends State<chatelisttile> {
         });
       },
       tileColor: Colors.white,
-      leading: CachedNetworkImage(
-        placeholder: (context, url) => const CircularProgressIndicator(
-          color: Colors.green,
-        ),
-        imageUrl: Imageurl,
-        cacheKey: Imageurl,
-        imageBuilder: (context, imageProvider) => Container(
-          width: 45.0,
-          height: 45.0,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            image: DecorationImage(image: imageProvider, fit: BoxFit.cover),
+      leading: GestureDetector(
+        child: CachedNetworkImage(
+          placeholder: (context, url) => const CircularProgressIndicator(
+            color: Colors.green,
+          ),
+          imageUrl: Imageurl,
+          cacheKey: Imageurl,
+          imageBuilder: (context, imageProvider) => Container(
+            width: 45.0,
+            height: 45.0,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(image: imageProvider, fit: BoxFit.cover),
+            ),
           ),
         ),
+        onTap: () {
+          setState(() {
+            SimpleDialog(
+              alignment: Alignment.center,
+              backgroundColor: Colors.amber,
+              title: Text(name),
+              
+            );
+          });
+          debugPrint("tab");
+        },
       ),
       title: Text(
         name,
-        style: TextStyle(fontWeight: FontWeight.w400),
+        style: TextStyle(fontWeight: FontWeight.w500),
       ),
       subtitle: Text(lastchat),
     );

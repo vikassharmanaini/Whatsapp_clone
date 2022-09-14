@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:whatsapp_clone/calls.dart';
 import 'package:whatsapp_clone/camera.dart';
 import 'package:whatsapp_clone/chats.dart';
@@ -47,17 +46,26 @@ class _MyHomePageState extends State<MyHomePage> {
           bottom: TabBar(
             indicatorColor: Colors.white,
             indicatorWeight: 2.0,
+            isScrollable: true,
             tabs: [
-              IconButton(onPressed: () {}, icon: Icon(Icons.camera_alt)),
+              IconButton(
+                  padding: EdgeInsets.all(1),
+                  onPressed: () {},
+                  icon: Icon(Icons.camera_alt)),
               Tab(
-                text: "Chats",
+                text: " CHATS ",
               ),
-              Tab(text: "Status"),
-              Tab(text: "Calls"),
+              Tab(text: " STATUS "),
+              Tab(text: " CALLS "),
             ],
           ),
         ),
-        body: TabBarView(children: [Camera(), chates(), Status(), Calls(),]),
+        body: TabBarView(children: [
+          Camera(),
+          chates(),
+          Status(),
+          Calls(),
+        ]),
       ),
     );
   }
